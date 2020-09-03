@@ -57,7 +57,7 @@ getEmpleado(2, (error, empleado) => {
 			if(error){
 				console.log(error);
 			}else{
-				console.log(`El usuario :  ${salario.nombre} su salario: ${salario.salario}`);
+				console.log(`El empleado :  ${salario.nombre} su salario: ${salario.salario}`);
 			}
 		})
 	}
